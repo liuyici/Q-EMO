@@ -107,7 +107,7 @@ def test_muda(dataset_test, model):
         return accuracy, f1, auc, matrix, features, y_pred
 
 
-def MFA_LR(args):
+def Q_EMO(args):
     """
     Parameters:
         @args: arguments
@@ -374,7 +374,7 @@ def MFA_LR(args):
 
 
 
-def RSDA(X, Y, model, args):
+def FunEing(X, Y, model, args):
 
     # prepare data
     dset_loaders = {}
